@@ -1,0 +1,63 @@
+.login {
+  border: 0.5px solid #0000004d;
+  margin: 0 auto;
+  padding: 19px 24px 46px 24px;
+  width: 480px;
+}
+
+.login form .input-fields {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+.login form input {
+  border-radius: 8px;
+  border: 1px solid #000000;
+  height: 52px;
+  opacity: 0.8px;
+  padding: 16px;
+  width: 432px;
+  padding-left: 40px;
+}
+
+.login form .input-fields span {
+  position: relative;
+}
+
+.login form .input-fields span img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 16px;
+}
+
+.login form span img.eye {
+  left: 0;
+  right: 90px;
+}
+
+.login-btn {
+  margin-top: 40px;
+}
+
+.login form .line {
+  display: flex;
+  margin-top: 24px;
+}
+
+.login form .line p {
+  font-size: 16px;
+}
+
+.login form .google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  margin-top: 39px;
+  font-weight: 500;
+}

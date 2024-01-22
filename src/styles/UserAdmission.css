@@ -1,0 +1,72 @@
+.user-admission-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  background-color: #00000066;
+  height: 100%;
+  width: 40%;
+}
+
+.user-admission {
+  height: 100%;
+  width: 60%;
+  text-align: center;
+  padding-top: 78px;
+  padding-left: 84px;
+  padding-right: 24px;
+  overflow-y: scroll;
+}
+
+.user-admission::-webkit-scrollbar {
+  display: none;
+}
+
+.user-admission h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+  letter-spacing: 0em;
+  margin-bottom: 16px;
+}
+
+.user-admission .sub-heading {
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.user-admission p span {
+  font-weight: bold;
+}
+
+.user-admission-btns {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 24px;
+  margin-top: 48px;
+}
+
+.user-admission-btns button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  height: 58px;
+  outline: none;
+  padding: 12px, 0px, 12px, 0px;
+  width: 228px;
+}
+
+.user-admission-btns button.active {
+  border-bottom: 4px solid black;
+}
+
+.user-admission-btns button:not(.active) {
+  color: #00000080;
+}
