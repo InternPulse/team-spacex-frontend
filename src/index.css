@@ -1,0 +1,49 @@
+:root {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+
+  --BG-COLOR: #f5f9ff;
+}
+
+body {
+  background: var(--BG-COLOR);
+  margin: 0px;
+}
+
+.header {
+  padding-inline: 80px;
+  padding-top: 30px;
+}
+
+.navbar {
+  display: flex;
+  max-width: 1272px;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo-box {
+  max-width: 326px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.dark-button {
+  display: flex;
+  /* width: 197px;
+  height: 52px; */
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #144eac;
+  color: #ffffff;
+}
