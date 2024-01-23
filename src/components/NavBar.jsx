@@ -7,9 +7,18 @@ const NavBar = () => {
     <header className="header">
       <nav className="navbar">
         <div className="navbar-logo-box">
-          <img src={LeftLogoImg} alt="left-logo" />
+          <div className="logo-left">
+            <img src={LeftLogoImg} alt="left-logo" width="56px" height="56px" />
+          </div>
 
-          <img src={RightLogoImg} alt="right-logo" />
+          <div className="logo-right">
+            <img
+              src={RightLogoImg}
+              alt="right-logo"
+              width="262px"
+              height="20px"
+            />
+          </div>
         </div>
 
         <DarkButton />

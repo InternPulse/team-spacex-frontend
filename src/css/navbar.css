@@ -1,0 +1,56 @@
+/* HEADER - For the navigation bar */
+.header {
+  padding-inline: 80px;
+  padding-top: 30px;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  display: flex;
+  max-width: 1272px;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NAVIGATION BAR - Logo images box both left and right*/
+.navbar-logo-box {
+  max-width: 326px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* NAVIGATION BAR - Left logo image box (Div)*/
+.logo-left {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  place-items: center;
+}
+
+/* NAVIGATION BAR - Right logo image box (Div)*/
+.logo-right {
+  display: flex;
+  place-items: center;
+}
+
+/* NAVIGATION BAR - Right logo image*/
+.logo-right img {
+  height: 25px;
+}
+
+/* NAVIGATION BAR - Dark blue button (create an account)*/
+.dark-button {
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: #144eac;
+  color: #ffffff;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.085px;
+}
