@@ -1,19 +1,24 @@
 import "../styles/RegisterUser.css";
 import bankIcon from "../assets/bank.svg";
 import checkIcon from "../assets/check-contained.svg";
-// import eyeClosedIcon from "../assets/eye-closed.svg";
+import eyeClosedIcon from "../assets/eye-closed.svg";
 import lockIcon from "../assets/lock-01.svg";
 import mailIcon from "../assets/mail-01.svg";
 import userProfileIcon from "../assets/user-profile-02.svg";
 import googleIcon from "../assets/Google.svg";
 import lineIcon from "../assets/Vector 2.svg";
 import { useState, useRef, useEffect } from "react";
+import axios from "axios";
+import eyeOpenIcon from "../assets/eye-open-svgrepo-com.svg";
 
-const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{3,23}$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+const REGISTER_URL =
+  "https://team-spacex-backend-mbhhb.ondigitalocean.app/api/signup/";
+
 const RegisterUser = () => {
+  const [reveal, setReveal] = useState(true);
   const userRef = useRef();
 
   const [formData, setFormData] = useState({
@@ -40,17 +45,18 @@ const RegisterUser = () => {
     // console.log(value);
   };
 
+  const handleReveal = () => {
+    setReveal(!reveal);
+  };
+
   const validateForm = () => {
     const { username, companyName, email, password } = formData;
     const errors = {};
-    const isUserValid = USER_REGEX.test(username);
     const isPasswordValid = PWD_REGEX.test(password);
     const isEmailValid = EMAIL_REGEX.test(email);
 
     if (!username) {
       errors.username = "Username is required!";
-    } else if (!isUserValid) {
-      errors.username = "Enter a valid username";
     }
 
     if (!companyName) {
@@ -80,6 +86,25 @@ const RegisterUser = () => {
       console.log("Form is valid");
     } else {
       setErrMsgs(validationErrors);
+    }
+    try {
+      // const { username, password } = formData;
+      const response = await axios.post(
+        REGISTER_URL,
+        JSON.stringify({
+          username: formData.username,
+          password: formData.password,
+        }),
+        {
+          headers: { "Content-Type": "application/json" },
+          withCredentials: true,
+        }
+      );
+      console.log(response.data);
+      console.log(response.token);
+      console.log(JSON.stringify(response));
+    } catch (error) {
+      console.log(error);
     }
   };
 
@@ -128,14 +153,20 @@ const RegisterUser = () => {
           </span>
           <span>
             <input
-              type="password"
+              type={reveal ? "password" : "text"}
               placeholder="Password"
               name="password"
               value={formData.password}
               onChange={handleChange}
             />
             <img src={lockIcon} alt="lock icon" />
-            {/* <img className="eye" src={eyeClosedIcon} alt="" /> */}
+            <img
+              className="eye"
+              src={reveal ? eyeClosedIcon : eyeOpenIcon}
+              // src={eyeOpenIcon}
+              onClick={handleReveal}
+              alt=""
+            />
             {errMsgs.password && (
               <p className="error-message">{errMsgs.password}</p>
             )}

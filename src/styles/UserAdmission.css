@@ -6,19 +6,26 @@
 }
 
 .logo {
-  background-color: #00000066;
+  /* background-color: #00000066; */
   height: 100%;
-  width: 40%;
+  width: 50%;
+  /* background-image: url(../assets/image\ 1.svg); */
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
 }
 
 .user-admission {
   height: 100%;
-  width: 60%;
+  width: 50%;
   text-align: center;
   padding-top: 78px;
   padding-left: 84px;
   padding-right: 24px;
   overflow-y: scroll;
+  background-color: #f5f9ff;
 }
 
 .user-admission::-webkit-scrollbar {
@@ -69,4 +76,12 @@
 
 .user-admission-btns button:not(.active) {
   color: #00000080;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding-top: 16px;
+  /* padding-bottom: 42px; */
+  margin-bottom: 42px;
 }
