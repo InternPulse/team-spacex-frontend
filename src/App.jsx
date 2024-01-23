@@ -1,4 +1,3 @@
-import "./App.css";
 import {
   NavBar,
   Hero,
@@ -14,15 +13,23 @@ import {
 function App() {
   return (
     <>
-      <NavBar />
-      <Hero />
-      <Companies />
-      <FeaturesOne />
-      <BizCardList />
-      <FeaturesTwo />
-      <Testimonials />
-      <FAQ />
-      <Footer />
+      <header>
+        <NavBar />
+      </header>
+
+      <main>
+        <Hero />
+        <Companies />
+        <FeaturesOne />
+        <BizCardList />
+        <FeaturesTwo />
+        <Testimonials />
+        <FAQ />
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

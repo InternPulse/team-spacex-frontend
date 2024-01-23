@@ -1,7 +1,7 @@
 import React from "react";
 
-const DarkButton = () => {
-  return <div className="dark-button">Create an Account</div>;
+const DarkButton = ({ content }) => {
+  return <div className="dark-button">{content}</div>;
 };
 
 export default DarkButton;

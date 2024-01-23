@@ -1,11 +1,7 @@
-/* HEADER - For the navigation bar */
-.header {
-  padding-inline: 80px;
-  padding-top: 30px;
-}
-
 /* NAVIGATION BAR */
 .navbar {
+  padding-inline: 80px;
+  padding-top: 30px;
   display: flex;
   max-width: 1272px;
   height: 56px;
