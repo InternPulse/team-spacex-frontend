@@ -1,0 +1,60 @@
+.plus-icon-holder{
+    width: 34px;
+    height: 34px;
+    background: #144EAC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.customer-main{
+    background: #FCFCFE;
+}
+
+.customer-header {
+  color: #030205;
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; 
+  letter-spacing: 0.085px;
+}
+
+.customer ,input{
+    border: 0.5px solid rgba(3, 2, 5, 0.50);
+}
+
+.customer-form-body{
+    width: 916px;
+height: 480px;
+flex-shrink: 0;
+}
+
+.search-body{
+    position: relative;
+}
+
+.search-input{
+    /* position: relative; */
+    width: 360px;
+    padding: 10px;
+    padding-left: 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(3, 2, 5, 0.20);
+    background: rgba(18, 95, 221, 0.10);
+    outline: none;
+}
+
+.search-images{
+    position: absolute;
+    margin-top: -32px;
+    padding-left: 10px;
+}
+
+
+
+
+
