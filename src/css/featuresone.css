@@ -1,0 +1,43 @@
+.invoice-features-one-container {
+  padding-inline: 20px;
+  margin-top: 60px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.left-container {
+  max-width: 300px;
+}
+
+.left-container h3 {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 68px; /* 141.667% */
+  margin: 0;
+}
+
+.left-container p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: 0.085px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-right: 60px;
+}
+
+.dark-button.learn-more {
+  width: 80px;
+  padding-inline: 30px;
+  font-size: 12px;
+}
+
+.right-container {
+  max-width: 300px;
+}
