@@ -1,0 +1,39 @@
+/* TestimonialSlider.css */
+
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-card {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.testimonial-card.active {
+  opacity: 1;
+}
+
+.testimonial-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}

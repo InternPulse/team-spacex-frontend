@@ -13,8 +13,11 @@ import BizCard_Image1 from "./bizcard-image-1.svg";
 import BizCard_Image2 from "./bizcard-image-2.svg";
 import BizCard_Image3 from "./bizcard-image-3.svg";
 import BizCard_Image4 from "./bizcard-image-4.svg";
+import InvoiceImage2 from "./invoiceImage-2.svg";
+import FaqIcon from "./faqIcon.svg";
 
 export {
+  FaqIcon,
   LeftLogoImg,
   RightLogoImg,
   HeroImageOne,
@@ -30,4 +33,5 @@ export {
   BizCard_Image2,
   BizCard_Image3,
   BizCard_Image4,
+  InvoiceImage2,
 };

@@ -22,7 +22,7 @@
 }
 
 .single-bizcard-container {
-  width: 210px;
+  width: 200px;
   background-color: #ffffff;
   display: flex;
   gap: 10px;
@@ -45,14 +45,14 @@
   margin-top: 0px;
   margin-bottom: 1px;
   color: rgba(0, 0, 0, 0.8);
-  font-size: 17px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
 
 .single-bizcard-container p {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 12px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 129.412% */
