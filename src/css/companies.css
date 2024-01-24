@@ -1,0 +1,27 @@
+.companies {
+  padding-inline: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-text {
+  font-size: 18px;
+  color: rgba(3, 2, 5, 0.8);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 141.176% */
+  letter-spacing: 0.085px;
+}
+
+.companies-logos {
+  display: flex;
+  gap: 40px;
+}
+
+.companies-logos img {
+  width: 100px;
+}
