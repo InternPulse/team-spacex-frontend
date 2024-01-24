@@ -21,7 +21,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <DarkButton content={"Create an Account"} />
+      <DarkButton content={"Create an Account"} style={"nav"} />
     </nav>
   );
 };

@@ -27,9 +27,13 @@ const Hero = () => {
         </div>
 
         <div className="hero_small_Images_box">
-          <img src={HeroImageTwo} alt="invoice hero image" />
+          <div>
+            <img src={HeroImageTwo} alt="invoice hero image" />
+          </div>
 
-          <img src={HeroImageThree} alt="invoice hero image" />
+          <div>
+            <img src={HeroImageThree} alt="invoice hero image" />
+          </div>
         </div>
       </div>
     </section>

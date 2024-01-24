@@ -1,7 +1,7 @@
 /* NAVIGATION BAR */
 .navbar {
-  padding-inline: 80px;
-  padding-top: 30px;
+  padding-inline: 20px;
+  padding-top: 20px;
   display: flex;
   max-width: 1272px;
   height: 56px;
@@ -40,13 +40,17 @@
 
 /* NAVIGATION BAR - Dark blue button (create an account)*/
 .dark-button {
-  padding: 12px 20px;
+  padding: 8px 50px;
   border-radius: 10px;
   background: #144eac;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0.085px;
+}
+
+.dark-button.nav {
+  padding: 8px 15px;
 }
