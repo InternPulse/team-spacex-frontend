@@ -18,15 +18,55 @@
 
 .all-bizcard-container {
   display: flex;
+  gap: 20px;
+}
+
+.single-bizcard-container {
+  width: 210px;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.single-bizcard-container .content-box {
+  padding-inline: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-bizcard-container h3 {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.single-bizcard-container p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: 0.085px;
 }
 
 .light-button {
-  padding: 8px 50px;
+  width: 100%;
+  padding: 8px 40px;
   border-radius: 10px;
   background: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 22px;
   letter-spacing: 0.085px;
   text-align: center;

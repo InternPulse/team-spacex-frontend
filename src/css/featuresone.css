@@ -16,8 +16,8 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
-  line-height: 68px; /* 141.667% */
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .left-container p {

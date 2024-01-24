@@ -3,14 +3,17 @@ import LightButton from "./LightButton";
 const BizCard = ({ id, img, alt, title, body, url, btnTitle }) => {
   return (
     <div className="single-bizcard-container">
-      <div>
+      <div className="image-box">
         <img src={`${img}`} alt={alt} />
       </div>
 
-      <div>
+      <div className="content-box">
         <h3>{title}</h3>
-        <p>{body}</p>
-        <LightButton url={url} content={btnTitle} />
+
+        <div>
+          <p>{body}</p>
+          <LightButton url={url} content={btnTitle} />
+        </div>
       </div>
     </div>
   );

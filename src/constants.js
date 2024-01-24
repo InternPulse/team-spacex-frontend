@@ -13,7 +13,7 @@ export const businessType = [
     title: "For Self-Employed Professionals",
     body: "Get more time for your business and client and even a little extra to plan for  the future.",
     url: "#",
-    btnTitle: "Learn More..",
+    btnTitle: "Learn more..",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const businessType = [
     title: "For Businesses with Employees",
     body: "Get more time for your business and client and even a little extra to plan for  the future.",
     url: "#",
-    btnTitle: "Learn More..",
+    btnTitle: "Learn more..",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const businessType = [
     title: "For Business with Contractors",
     body: "Get more time for your business and client and even a little extra to plan for  the future.",
     url: "#",
-    btnTitle: "Learn More..",
+    btnTitle: "Learn more..",
   },
   {
     id: 4,
@@ -40,6 +40,6 @@ export const businessType = [
     title: "For Freelancers",
     body: "Get more time for your business and client and even a little extra to plan for  the future.",
     url: "#",
-    btnTitle: "Learn More..",
+    btnTitle: "Learn more..",
   },
 ];
