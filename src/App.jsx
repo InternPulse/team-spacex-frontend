@@ -27,9 +27,7 @@ function App() {
         <FAQ />
       </main>
 
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }

@@ -16,8 +16,18 @@ import BizCard_Image4 from "./bizcard-image-4.svg";
 import InvoiceImage2 from "./invoiceImage-2.svg";
 import FaqIcon from "./faqIcon.svg";
 import DownArrow from "./down-arrow.svg";
+import FooterLogo from "./footer-logo.svg";
+import Facebook from "./facebook.svg";
+import Instagram from "./instagram.svg";
+import Linkedin from "./linkedin.svg";
+import X from "./x.svg";
 
 export {
+  Facebook,
+  Linkedin,
+  X,
+  Instagram,
+  FooterLogo,
   DownArrow,
   FaqIcon,
   LeftLogoImg,
