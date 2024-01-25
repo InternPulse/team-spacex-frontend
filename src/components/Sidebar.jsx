@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import {
     FaTh,
     FaBars,
-    FaUserAlt,
-    FaRegChartBar,
-    FaCommentAlt,
-    FaShoppingBag,
-    FaThList
+    FaFileAlt,
+    FaUser,
+    FaRegSun
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
@@ -23,17 +21,17 @@ const Sidebar = ({children}) => {
         {
             path:"/invoice",
             name:"Invoice",
-            icon:<FaUserAlt/>
+            icon:<FaFileAlt/>
         },
         {
             path:"/customer",
             name:"Customer",
-            icon:<FaRegChartBar/>
+            icon:<FaUser/>
         },
         {
             path:"/settings",
             name:"Settings",
-            icon:<FaCommentAlt/>
+            icon:<FaRegSun/>
         }
     ]
     return (
