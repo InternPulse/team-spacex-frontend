@@ -21,8 +21,14 @@ import Facebook from "./facebook.svg";
 import Instagram from "./instagram.svg";
 import Linkedin from "./linkedin.svg";
 import X from "./x.svg";
+import FooterLogoTitle from "./footer-logo-title.svg";
+import TestimonialImage from "./testimonial-Image-1.svg";
+import TestimonialImageIcon from "./testimonial-title-icon.svg";
 
 export {
+  TestimonialImage,
+  TestimonialImageIcon,
+  FooterLogoTitle,
   Facebook,
   Linkedin,
   X,

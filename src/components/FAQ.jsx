@@ -36,7 +36,7 @@ const FAQ = () => {
         {faq.map((item) => {
           const { id, question, answer } = item;
           return (
-            <div key={id} className="faq-item">
+            <div key={`hrt${id}`} className="faq-item">
               <div
                 className={`question ${openQuestion === id ? "open" : ""}`}
                 onClick={() => toggleAnswer(id)}
@@ -61,25 +61,6 @@ const FAQ = () => {
           );
         })}
       </div>
-
-      {/* <div className="faq-dropdown">
-        {faqData.map((faqItem) => (
-          <div key={faqItem.id} className="faq-item">
-            <div
-              className={`question ${
-                openQuestion === faqItem.id ? "open" : ""
-              }`}
-              onClick={() => toggleAnswer(faqItem.id)}
-            >
-              {faqItem.question}
-            </div>
-
-            {openQuestion === faqItem.id && (
-              <div className="answer">{faqItem.answer}</div>
-            )}
-          </div>
-        ))}
-      </div> */}
     </section>
   );
 };

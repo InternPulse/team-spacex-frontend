@@ -1,73 +1,100 @@
-import React, { useState } from "react";
-import "../css/testimonials.css"; // Import your CSS file for styling
+import "../css/testimonials.css";
+import { TestimonialImage, TestimonialImageIcon } from "../assets";
 
-const testimonialsData = [
+// TestimonialSlider.js
+
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import SwiperCore from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+
+SwiperCore.use([Navigation]);
+
+const testimonials = [
   {
-    id: 1,
-    name: "John Doe",
-    country: "USA",
-    testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    image: "john-doe.jpg", // Replace with actual image path
+    id: 10,
+    name: "Dani daniels",
+    country: "Texas, USA",
+    content:
+      "Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  commodo consequat.",
+    image: TestimonialImage,
   },
   {
-    id: 2,
-    name: "John Doe",
-    country: "USA",
-    testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    image: "john-doe.jpg", // Replace with actual image path
+    id: 11,
+    name: "Ryan John",
+    country: "California",
+    content:
+      "Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  commodo consequat.",
+    image: TestimonialImage,
   },
   {
-    id: 3,
-    name: "John Doe",
-    country: "USA",
-    testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    image: "john-doe.jpg", // Replace with actual image path
+    id: 12,
+    name: "Cynthia Plack",
+    country: "Spain",
+    content:
+      "Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  commodo consequat.",
+    image: TestimonialImage,
+  },
+  {
+    id: 13,
+    name: "David Benson",
+    country: "Mexico",
+    content:
+      "Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  commodo consequat.",
+    image: TestimonialImage,
+  },
+  {
+    id: 14,
+    name: "Maxwell Adedeji",
+    country: "Lagos, Nigeria",
+    content:
+      "Lorem ipsu dolor sit amet, consectetur adipiscg elit, sed do eiusmod tempor incididunt ut labor et  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  commodo consequat.",
+    image: TestimonialImage,
   },
   // Add more testimonials as needed
 ];
 
 const TestimonialSlider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handleSlideChange = (direction) => {
-    const totalSlides = testimonialsData.length;
-    if (direction === "prev") {
-      setCurrentSlide(
-        (prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides
-      );
-    } else {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
-    }
-  };
-
   return (
-    <div className="testimonial-slider">
-      {testimonialsData.map((testimonial, index) => (
-        <div
-          key={testimonial.id}
-          className={`testimonial-card ${
-            index === currentSlide ? "active" : ""
-          }`}
-        >
-          <img src={testimonial.image} alt={`User ${index + 1}`} />
-          <h3>{testimonial.name}</h3>
-          <p>{testimonial.country}</p>
-          <p>{testimonial.testimonial}</p>
+    <>
+      <section className="testimonial-heading-section">
+        <div className="testimonial-heading-container">
+          <h2>
+            Why 20+ Million people have <br /> Used InvoicePilot
+          </h2>
+          <img src={TestimonialImageIcon} alt="icon" className="icon" />
+
+          <p>See what our users are saying about our services and support</p>
         </div>
-      ))}
-      <button
-        onClick={() => handleSlideChange("prev")}
-        className="slide-btn prev-btn"
+      </section>
+
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={3}
+        navigation
+        loop
+        centeredSlides
+        onSlideChange={() => console.log("Slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
       >
-        &lt;
-      </button>
-      <button
-        onClick={() => handleSlideChange("next")}
-        className="slide-btn next-btn"
-      >
-        &gt;
-      </button>
-    </div>
+        {testimonials.map((testimonial) => (
+          <SwiperSlide key={testimonial.id}>
+            <div className="testimonial-card">
+              <img
+                src={testimonial.image}
+                alt={testimonial.name}
+                className="testimonial-image"
+              />
+              <div className="testimonial-details">
+                <h3>{testimonial.name}</h3>
+                <p className="testimonial-country">{testimonial.country}</p>
+                <p className="testimonial-content">{testimonial.content}</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </>
   );
 };
 
