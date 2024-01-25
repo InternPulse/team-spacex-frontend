@@ -15,8 +15,10 @@ import BizCard_Image3 from "./bizcard-image-3.svg";
 import BizCard_Image4 from "./bizcard-image-4.svg";
 import InvoiceImage2 from "./invoiceImage-2.svg";
 import FaqIcon from "./faqIcon.svg";
+import DownArrow from "./down-arrow.svg";
 
 export {
+  DownArrow,
   FaqIcon,
   LeftLogoImg,
   RightLogoImg,

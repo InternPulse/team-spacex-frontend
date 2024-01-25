@@ -43,3 +43,37 @@ export const businessType = [
     btnTitle: "Learn more..",
   },
 ];
+
+export const faq = [
+  {
+    id: 1,
+    question: "Does InvoicePilot work on all of my devices?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 2,
+    question: "How does InvoicePilot work?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 3,
+    question: "Does InvoicePilot offer support to its customers?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 4,
+    question: "Who can use this Invoice Pilot for?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 5,
+    question:
+      "Is it safe to use my financial information on this InvoicePilot?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+  {
+    id: 6,
+    question: "What happens if an invoice is overdue?",
+    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  },
+];
