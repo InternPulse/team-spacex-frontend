@@ -127,3 +127,44 @@
 .question.open + .answer {
   display: block;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .faq {
+    gap: 10px;
+    max-width: 550px;
+    padding-right: 20px;
+  }
+
+  /* RIGHT CONTAINER */
+  .faq-item {
+    margin-bottom: 5px;
+  }
+
+  .question p {
+    font-size: 11px;
+  }
+
+  .answer {
+    font-size: 11px;
+  }
+
+  /* LEFT CONTAINER */
+  .faq-left-container {
+    max-width: 250px;
+    gap: 20px;
+  }
+
+  .faq-left-container h3 {
+    font-size: 25px;
+  }
+
+  .faq-left-container img {
+    width: 180px;
+  }
+
+  .faq-left-container p {
+    font-size: 12px;
+  }
+}

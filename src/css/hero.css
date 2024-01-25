@@ -66,3 +66,28 @@
   gap: 10px;
   padding-top: 10px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 40px;
+    padding-inline: 20px;
+  }
+
+  .hero-left {
+    max-width: 300px;
+  }
+
+  .hero_h2_heading {
+    font-size: 30px;
+  }
+
+  .hero_h2_subtitle {
+    font-size: 30px;
+  }
+
+  .hero_para {
+    font-size: 12px;
+  }
+}

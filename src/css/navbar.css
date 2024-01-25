@@ -57,3 +57,13 @@
 .dark-button.nav {
   padding: 8px 15px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  /* NAVIGATION BAR */
+  .navbar {
+    padding-inline: 20px;
+    padding-top: 20px;
+  }
+}

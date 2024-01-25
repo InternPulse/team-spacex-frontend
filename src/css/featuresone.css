@@ -45,3 +45,12 @@
 .right-container img {
   width: 80%;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .invoice-features-one-container {
+    padding-inline: 30px;
+    gap: 30px;
+  }
+}

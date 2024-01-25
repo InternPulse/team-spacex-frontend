@@ -47,3 +47,16 @@
 .left-container {
   max-width: 300px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .invoice-features-two-container {
+    padding-inline: 30px;
+    gap: 50px;
+  }
+
+  .right-container h3 {
+    line-height: 38px;
+  }
+}
