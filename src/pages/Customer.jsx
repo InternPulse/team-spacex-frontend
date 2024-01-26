@@ -6,11 +6,11 @@ import search from "../assets/search.svg";
 import notification from "../assets/notification.svg";
 import customericon from "../assets/customer-image.svg";
 import plusicon from "../assets/plusicon.svg";
-import { format } from "libphonenumber-js";
+// import { format } from "libphonenumber-js";
 
 const Customer = () => {
   // const [data, setData] = useState([]);
-  const [selctedOption, setSelectedOption] = useState("");
+  // const [selctedOption, setSelectedOption] = useState("");
 
   const [customerData, setCustomerData] = useState({
     customer_type: "", // Set default values as needed
