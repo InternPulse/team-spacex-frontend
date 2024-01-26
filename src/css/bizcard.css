@@ -81,6 +81,13 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .all-bizcard-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .all-bizcard-container {

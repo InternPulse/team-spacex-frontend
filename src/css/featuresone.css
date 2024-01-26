@@ -47,11 +47,26 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .invoice-features-one-container {
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 60px;
+    max-width: 700px;
+    margin: 0 auto;
+    place-items: center;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .invoice-features-one-container {
-    padding-inline: 30px;
-    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-inline: 20px; */
+    padding-top: 30px;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
 

@@ -68,6 +68,30 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding-top: 40px;
+    padding-inline: 40px;
+  }
+
+  .hero-left {
+    max-width: 350px;
+    gap: 10px;
+  }
+
+  .hero_h2_heading {
+    font-size: 30px;
+    margin-top: -50px;
+  }
+
+  .hero_h2_subtitle {
+    font-size: 30px;
+  }
+
+  .hero_para {
+    font-size: 11px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .hero {
@@ -81,6 +105,7 @@
 
   .hero_h2_heading {
     font-size: 30px;
+    margin-top: -10px;
   }
 
   .hero_h2_subtitle {
@@ -108,6 +133,7 @@
   .hero_h2_heading {
     font-size: 27px;
     line-height: 35px;
+    margin-top: 0px;
   }
 
   .hero_h2_subtitle {

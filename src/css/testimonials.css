@@ -108,6 +108,18 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .testimonial-heading-container h2 {
+    font-size: 20px;
+  }
+
+  .testimonial-heading-container img {
+    width: 200px;
+    height: 55px;
+    top: -12px;
+    left: 30px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .testimonial-heading-section {

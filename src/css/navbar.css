@@ -59,6 +59,12 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding-inline: 40px;
+    padding-top: 20px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   /* NAVIGATION BAR */
