@@ -3,7 +3,7 @@ import { TestimonialImageIcon } from "../assets";
 import lineIcon from "../images/Line 5.svg";
 import person1 from "../images/Ellipse 8.svg";
 import stars from "../images/Frame 124.svg";
-import person2 from "../images/Ellipse 8.svg";
+import person2 from "../images/Ellipse 9.svg";
 import person3 from "../images/Ellipse 0.svg";
 
 const TestimonialSlider = () => {

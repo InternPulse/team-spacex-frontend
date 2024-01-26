@@ -38,15 +38,9 @@ span.blue {
   padding-inline: 40px;
   border-radius: 10px;
   border: 1.5px;
+  background-color: #144EAC33;
   display: flex;
   gap: 12px;
-  /* background: linear-gradient(
-      281.48deg,
-      rgba(20, 78, 172, 0) -9.32%,
-      rgba(20, 78, 172, 0.2) 109.4%
-    ),
-    linear-gradient(0deg, #144eac, #144eac); */
-
   border: 1.5px solid #144eac;
   text-align: left;
 }
