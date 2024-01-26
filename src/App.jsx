@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
 import UserAdmission from "./pages/UserAdmission";
 import ConfirmEmail from "./pages/ConfirmEmail";
 import EmailVerified from "./pages/EmailVerified";
@@ -12,6 +13,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<LandingPage />} />
           <Route path="/UserAdmission" element={<UserAdmission />} />
           <Route path="/ConfirmEmail" element={<ConfirmEmail />} />
           <Route path="/EmailVerified" element={<EmailVerified />} />

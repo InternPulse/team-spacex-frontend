@@ -1,3 +1,10 @@
+/* #root {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /* Box sizing rules */
@@ -38,7 +45,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* A elements that don't have a class get default styles */
+/* anchor elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
@@ -49,6 +56,10 @@ picture,
 svg {
   max-width: 100%;
   display: block;
+}
+
+Link {
+  text-decoration: none;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
@@ -65,4 +76,53 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* General styling */
+.block {
+  max-width: 1344px;
+  margin-inline: auto;
+}
+
+.home-btn {
+  width: 227px;
+  max-height: 52px;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home-btn-blue {
+  background-color: #144eac;
+  color: white;
+  transition: hover 0.3s ease-in;
+}
+
+.home-btn-white {
+  background-color: #fff;
+  color: #144eac;
+  border: 1px solid #144eac;
+}
+
+.home-btn-blue:hover {
+  background-color: #073277;
+}
+
+.home-btn-white:hover {
+  background-color: #eee9e9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
 }

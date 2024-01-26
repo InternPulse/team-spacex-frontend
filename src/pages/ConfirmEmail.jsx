@@ -6,16 +6,22 @@ import logoIpsum from "../assets/logoipsum.svg";
 import logoIpsumBrand from "../assets/logo-ipsum-brand.svg";
 import logo2 from "../assets/logo2.svg";
 import mailIcon from "../assets/mail-01.svg";
+import invoicePilotLogo from "../assets/InvoicePilot-Logo.svg";
+import { Link } from "react-router-dom";
 
 const ConfirmEmail = () => {
   return (
     <section className="confirm-email">
+      <Link to={"/"}>
+        <img className="invoice-pilot-logo" src={invoicePilotLogo} alt="" />
+      </Link>
       <div className="frame1">
         <div className="get-email">
           <h1>Confirm your Email</h1>
           <p className="sub-heading">
-            <span className="bold">InvoicePilot</span> helps freelancers, consultants, and small
-            businesses around the world simplify their finances
+            <span className="bold">InvoicePilot</span> helps freelancers,
+            consultants, and small businesses around the world simplify their
+            finances
           </p>
           <div className="enter-code">
             <span>

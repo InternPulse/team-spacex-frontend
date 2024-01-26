@@ -8,6 +8,8 @@ import ipsum from "../assets/ipsum.svg";
 import logoIpsum from "../assets/logoipsum.svg";
 import logoIpsumBrand from "../assets/logo-ipsum-brand.svg";
 import logo2 from "../assets/logo2.svg";
+import invoicePilotLogo from "../assets/InvoicePilot-Logo.svg";
+import { Link } from "react-router-dom";
 
 const UserAdmission = () => {
   const [isSignIn, setIsSignIn] = useState(false);
@@ -22,6 +24,9 @@ const UserAdmission = () => {
 
   return (
     <section className="user-admission-body">
+      <Link to={"/"}>
+        <img className="invoice-pilot-logo" src={invoicePilotLogo} alt="" />
+      </Link>
       <div className="user-admission">
         <div className="bg-white">
           <h1>
