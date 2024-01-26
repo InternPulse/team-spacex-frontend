@@ -6,6 +6,7 @@ import lineIcon from "../assets/Vector 2.svg";
 import { useState, useRef } from "react";
 import eyeOpenIcon from "../assets/eye-open-svgrepo-com.svg";
 import eyeClosedIcon from "../assets/eye-closed.svg";
+import { Link } from "react-router-dom";
 
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
@@ -83,7 +84,9 @@ const WelcomeBack = () => {
 
   return (
     <section className="welcome-back">
-      <img className="invoice-pilot-logo" src={invoicePilotLogo} alt="" />
+      <Link to={"/"}>
+        <img className="invoice-pilot-logo" src={invoicePilotLogo} alt="" />
+      </Link>
       <div className="welcome-back-body">
         <h1 className="">Welcome Back!</h1>
         <p className="sub-heading">

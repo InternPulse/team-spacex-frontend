@@ -1,0 +1,39 @@
+.hero {
+  background-color: #ecf0ff;
+  min-height: 100vh;
+  /* position: relative; */
+}
+
+.hero .hero-body {
+  padding-inline: 140px;
+  padding-top: 99px;
+  text-align: center;
+}
+
+.hero .hero-body h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.005em;
+}
+
+.hero .hero-body h1 span {
+  color: #03020580;
+}
+
+.hero .hero-body p {
+  color: #030205cc;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.0015em;
+  margin-top: 16px;
+  margin-bottom: 56px;
+}
+
+.hero .hero-body .hero-btns {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  margin-bottom: 76px;
+}

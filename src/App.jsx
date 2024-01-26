@@ -6,12 +6,14 @@ import EmailVerified from "./pages/EmailVerified";
 import WelcomeBack from "./pages/WelcomeBack";
 import SetUpAccount from "./pages/SetUpAccount";
 import SetUpAccountSuccess from "./pages/SetUpAccountSuccess";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<LandingPage />} />
           <Route path="/UserAdmission" element={<UserAdmission />} />
           <Route path="/ConfirmEmail" element={<ConfirmEmail />} />
           <Route path="/EmailVerified" element={<EmailVerified />} />

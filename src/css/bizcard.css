@@ -1,0 +1,53 @@
+.bizcardlist-container {
+  padding-block: 151px;
+  text-align: center;
+}
+
+.bizcardlist-container h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+  margin-bottom: 82px;
+}
+
+.all-bizcard-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.single-bizcard-container {
+  width: 280px;
+  border-radius: 0px, 0px, 15px, 15px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  background-color: white;
+}
+
+.single-bizcard-container .content-box {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.single-bizcard-container h3 {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.single-bizcard-container p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: 0.085px;
+}
+
+.bizcard-btn {
+  margin: auto;
+}
