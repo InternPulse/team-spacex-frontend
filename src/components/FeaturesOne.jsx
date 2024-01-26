@@ -5,7 +5,7 @@ import DarkButton from "../components/DarkButton";
 const FeaturesOne = () => {
   return (
     <section className="invoice-features-one-container">
-      <div className="left-container">
+      <div className="left-container-one">
         <h3>Professional Invoice</h3>
         <p>
           Impress clients with professional Invoice That clearly show the work

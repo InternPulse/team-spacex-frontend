@@ -106,3 +106,107 @@
 .swiper-slide-prev .testimonial-card {
   opacity: 0.5;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 576px) {
+  .testimonial-heading-section {
+    max-width: 300px;
+    /* margin: 0 auto; */
+    padding-inline: 10px;
+  }
+
+  .testimonial-heading-container {
+    /* position: relative; */
+    margin-bottom: 40px;
+  }
+
+  .testimonial-heading-container h2 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 22px;
+    text-align: center;
+    color: #0e0e0e;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+  }
+
+  .testimonial-heading-container img {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: -12px;
+    left: 30px;
+  }
+
+  .testimonial-heading-container p {
+    text-align: center;
+
+    color: #0e0e0e;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .testimonial-card {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; */
+    padding: 20px;
+    /* background-color: white;
+    margin-top: 100px; */
+    max-width: 350px;
+    /*margin: auto;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 30px 604px 0px rgba(28, 90, 104, 0.09); */
+  }
+
+  .testimonial-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .testimonial-details {
+    opacity: 0.8;
+  }
+
+  .testimonial-details h3 {
+    margin: 0;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder;
+    /* line-height: 34px; */
+  }
+
+  .testimonial-country {
+    margin: 0;
+    color: #c1c1c1;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.085px;
+  }
+
+  .testimonial-content {
+    max-width: 300px;
+    color: #000000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 129.412% */
+    letter-spacing: 0.085px;
+  }
+}

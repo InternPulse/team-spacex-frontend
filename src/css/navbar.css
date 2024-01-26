@@ -67,3 +67,66 @@
     padding-top: 20px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  /* NAVIGATION BAR */
+  .navbar {
+    padding-inline: 20px;
+    /* padding-top: 20px; */
+    /* display: flex; */
+    flex-direction: column;
+    /* max-width: 800px;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; */
+  }
+
+  /* NAVIGATION BAR - Logo images box both left and right*/
+  /* .navbar-logo-box {
+    max-width: 326px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  } */
+
+  /* NAVIGATION BAR - Left logo image box (Div)*/
+  /* .logo-left {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    place-items: center;
+  } */
+
+  /* NAVIGATION BAR - Right logo image box (Div)*/
+  /* .logo-right {
+    display: flex;
+    place-items: center;
+  } */
+
+  /* NAVIGATION BAR - Right logo image*/
+  /* .logo-right img {
+    height: 25px;
+  } */
+
+  /* NAVIGATION BAR - Dark blue button (create an account)*/
+  .dark-button {
+    /* padding: 8px 50px;
+    border-radius: 10px;
+    background: #144eac;
+    color: #ffffff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.085px;
+    text-align: center; */
+  }
+
+  .dark-button.nav {
+    /* padding: 8px 15px; */
+    display: none;
+  }
+}

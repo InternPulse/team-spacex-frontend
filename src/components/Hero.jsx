@@ -18,7 +18,7 @@ const Hero = () => {
           streamlined invoicing experience today.
         </p>
 
-        <DarkButton content={"Get Started"} />
+        <DarkButton content={"Get Started"} style={"herobtn"} />
       </div>
 
       <div className="hero_right">
