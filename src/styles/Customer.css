@@ -1,0 +1,200 @@
+.plus-icon-holder {
+  width: 34px;
+  height: 34px;
+  background: #144eac;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-main {
+  background: #f5f9ff;
+  height: fit-content;
+  /* width: fit-content; */
+}
+
+.customer-header {
+  color: #030205;
+  font-family: "Inter", sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.085px;
+}
+
+.customer-label-text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.customer-form-body {
+  width: 883px;
+  height: fit-content;
+  flex-shrink: 0;
+}
+
+.customer-name-input {
+  width: 194px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  padding: 10px 8px;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.customer-phone-input {
+  width: 267px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  padding: 10px 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  color: rgba(0, 0, 0, 0.7);
+  outline: none;
+}
+
+.customer-email {
+  width: 432px;
+  height: 45px;
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  outline: none;
+}
+
+.customer-company-name {
+  width: 423px;
+  height: 45px;
+  padding: 10px 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  outline: none;
+}
+
+.customer-salutation {
+  border-radius: 10px;
+  width: 194px;
+  height: 45px;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.customer-currency {
+  width: 423px;
+  height: 45px;
+  background: #ebebeb;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03px;
+  font-family: "Inter", sans-serif;
+  padding: 5px;
+}
+
+.customer-language {
+  width: 432px;
+  height: 45px;
+  outline: none;
+  padding: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: 0.03px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.70);
+  
+}
+
+.customer-option {
+  color: rgba(0, 0, 0, 0.7);
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.search-body {
+  position: relative;
+}
+
+.search-input {
+  /* position: relative; */
+  width: 360px;
+  padding: 10px;
+  padding-left: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(3, 2, 5, 0.2);
+  background: rgba(18, 95, 221, 0.1);
+  outline: none;
+}
+
+.search-images {
+  position: absolute;
+  margin-top: -32px;
+  padding-left: 10px;
+}
+
+.button-1,
+.button-2 {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.085px;
+  line-height: 22px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.button-1 {
+  background: #144eac;
+  color: #fff;
+}
+
+.button-2 {
+  color: #000;
+  background: #ebebeb;
+  border: 0.2px solid rgba(0, 0, 0, 0.7);
+}
