@@ -88,7 +88,6 @@ const TestimonialSlider = () => {
         centeredSlides
         onSlideChange={() => console.log("Slide change")}
         onSwiper={(swiper) => console.log(swiper)}
-        className="testimonial-card-container"
       >
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
