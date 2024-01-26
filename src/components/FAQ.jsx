@@ -24,7 +24,7 @@ const FAQ = () => {
         </div>
 
         <p>
-          For more information, please visit the{" "}
+          For more information, please visit the
           <span className="help-center">Help Center.</span> Also find all faq's
           on our faq's page
         </p>

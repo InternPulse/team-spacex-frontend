@@ -1,33 +1,14 @@
-import {
-  NavBar,
-  Hero,
-  Companies,
-  FeaturesOne,
-  BizCardList,
-  FeaturesTwo,
-  Testimonials,
-  FAQ,
-  Footer,
-} from "./components";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
-      <header>
-        <NavBar />
-      </header>
-
-      <main>
-        <Hero />
-        <Companies />
-        <FeaturesOne />
-        <BizCardList />
-        <FeaturesTwo />
-        <Testimonials />
-        <FAQ />
-      </main>
-
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
