@@ -97,11 +97,11 @@ const Customer = () => {
         </div>
       </div>
       <h2 className="customer-header pt-6">New Customer</h2>
-      <div className="mt-10 mx-1 customer-form-body">
+      <div className="mt-8 mx-1 customer-form-body">
         <div>
-          <div className="flex gap-14">
+          <div className="pt-3 pb-4 flex gap-14">
             <label htmlFor="customer_type" className="customer-label-text">Customer Type <span>&#9432;</span></label>
-            <div className=" flex gap-10">
+            <div className=" flex gap-10 ml-1">
             <div>
             <input
               type="radio"
@@ -124,9 +124,9 @@ const Customer = () => {
             </div>
             </div>
           </div>
-          <div className="flex gap-14 pt-8">
-            <label htmlFor="primary_contact" className="customer-label-text pt-3">Primary Contact <span>&#9432;</span></label>
-            <div className="flex gap-8">
+          <div className="flex gap-12 pt-6">
+            <label htmlFor="primary_contact" className="customer-label-text pt-2.5">Primary Contact <span>&#9432;</span></label>
+            <div className="flex gap-8 ml-1">
                 <div>
                     <select name="salutation" id="salutation" className="customer-salutation">
                         <option value="salutation" className="customer-option">Salutation</option>
@@ -143,13 +143,13 @@ const Customer = () => {
                 <input type="text" placeholder="Last Name" className="customer-name-input"/>
             </div>
           </div>
-          <div className="flex gap-14 pt-10">
-            <label htmlFor="company_name" className="customer-label-text">Company Name</label>
+          <div className="flex gap-16 pt-7">
+            <label htmlFor="company_name" className="customer-label-text pt-2.5">Company Name</label>
             <input className="ml-4 customer-company-name" type="text" placeholder="Company Name"/>
           </div>
-          <div className="flex gap-16 pt-10">
-            <label htmlFor="currency" className="customer-label-text">Currency</label>
-            <div className="ml-16">
+          <div className="flex gap-36 pt-7">
+            <label htmlFor="currency" className="customer-label-text pt-2.5">Currency</label>
+            <div className="">
             <select name="currency" id="currency" className="customer-currency">
                 <option value="select-currency" className="customer-option">Select Currency</option>
                 <option value="NGN" className="customer-option">NGN-NIGERIAN NAIRA</option>
@@ -159,19 +159,19 @@ const Customer = () => {
             </select>
             </div>
           </div>
-          <div className="flex gap-14 pt-10">
-            <label htmlFor="customer_email" className="customer-label-text">Customer Email <span>&#9432;</span></label>
+          <div className="flex gap-14 pt-7">
+            <label htmlFor="customer_email" className="customer-label-text pt-2.5">Customer Email <span>&#9432;</span></label>
             <input type="email" name="" id="" placeholder="Email address" className="customer-email"/>
           </div>
-          <div className="flex gap-14 pt-10">
-            <label htmlFor="customer_phone" className="customer-label-text">Customer Phone</label>
-                <div className="flex gap-6">
+          <div className="flex gap-16 pt-7">
+            <label htmlFor="customer_phone" className="customer-label-text pt-2.5">Customer Phone</label>
+                <div className="flex gap-6 ml-2">
                 <input type="tel" name="" id="" placeholder="Work Phone" className="customer-phone-input"/>
                 <input type="tel" name="" id="" placeholder="Mobile" className="customer-phone-input"/>
                 </div>
           </div>
-          <div className="flex gap-12 pt-10">
-            <label htmlFor="portal_language" className="customer-label-text">Portal Language <span>&#9432;</span></label>
+          <div className="flex gap-12 pt-7">
+            <label htmlFor="portal_language" className="customer-label-text pt-2.5">Portal Language <span>&#9432;</span></label>
             <div>
                 <select name="language" id="language" className="customer-language">
                     <option value="english" className="customer-option">English</option>
