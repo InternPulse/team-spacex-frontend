@@ -1,60 +1,42 @@
-/* NAVIGATION BAR */
-/* .navbar {
- padding-inline: 200px;
-  padding-top: 20px;
+
+
+
+
+.navbar {
+  background-color: #fff;
+  height: 120px;
   display: flex;
-  max-width: 800px;
-  height: 56px;
+  align-items: center;
+}
+
+.navbar .nav {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto; 
-}  */
-
-/* NAVIGATION BAR - Logo images box both left and right
-.navbar-logo-box {
-  max-width: 326px;
-  height: 56px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  width: 100%;
 }
 
-/* NAVIGATION BAR - Left logo image box (Div)*/
-/* .logo-left {
-  width: 30px;
-  height: 30px;
+.navbar .nav .brand {
+  width: 215px;
+  height: 66px;
+}
+
+.navbar .nav .nav-list {
   display: flex;
-  place-items: center;
-} */
+  gap: 57px;
+}
 
-/* NAVIGATION BAR - Right logo image box (Div)*/
-/* .logo-right {
-  display: flex;
-  place-items: center;
-} */
-
-/* NAVIGATION BAR - Right logo image*/
-/* .logo-right img {
-  height: 25px;
-} */
-
-/* NAVIGATION BAR - Dark blue button (create an account)*/
-/* .dark-button {
-  padding: 8px 50px;
-  border-radius: 10px;
-  background: #144eac;
-  color: #ffffff;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
+.navbar .nav .nav-list li {
+  color: #144eac;
+  font-size: 17px;
   line-height: 22px;
-  letter-spacing: 0.085px;
-  text-align: center;
+  font-weight: 500;
 }
 
-.dark-button.nav {
-  padding: 8px 15px;
+.navbar .nav .nav-btns {
+  display: flex;
+  gap: 17px;
+}
 }  */
 
 .navbar {

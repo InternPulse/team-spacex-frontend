@@ -6,7 +6,7 @@ import lineIcon from "../assets/Vector 2.svg";
 import userProfileIcon from "../assets/user-profile-02.svg";
 import { useState, useRef, useEffect } from "react";
 import eyeOpenIcon from "../assets/eye-open-svgrepo-com.svg";
-import axios from "axios";
+// import axios from "axios";
 
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 // const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
