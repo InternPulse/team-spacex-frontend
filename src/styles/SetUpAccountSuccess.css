@@ -1,0 +1,40 @@
+.set-up-account-success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F5F9FF;
+}
+
+.set-up-account-success-body {
+  max-width: 672px;
+  padding-block: 32px;
+  text-align: center;
+}
+
+.set-up-account-success-body img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 72px;
+  margin-inline: auto;
+}
+
+.set-up-account-success-body h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 41px;
+}
+
+.set-up-account-success-body p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+}
+
+.set-up-account-success-body button {
+  margin-top: 61px;
+  margin-bottom: 32px;
+}

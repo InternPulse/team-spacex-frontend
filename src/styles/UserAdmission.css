@@ -5,16 +5,43 @@
   height: 100vh;
 }
 
-.logo {
-  /* background-color: #00000066; */
-  height: 100%;
-  width: 50%;
-  /* background-image: url(../assets/image\ 1.svg); */
+span.bold, p.bold {
+  font-weight: bold;
 }
 
-.logo img {
+.logo {
   height: 100%;
-  width: 100%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.logo .slogan {
+  margin-bottom: 128px;
+  max-width: 659px;
+  margin-inline: auto;
+}
+
+.logo .slogan h2 {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+
+.logo .slogan .brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 55px;
+  row-gap: 24px;
+  margin-top: 24px;
 }
 
 .user-admission {

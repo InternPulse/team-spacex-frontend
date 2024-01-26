@@ -10,6 +10,7 @@ import lineIcon from "../assets/Vector 2.svg";
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import eyeOpenIcon from "../assets/eye-open-svgrepo-com.svg";
+// import { useNavigate } from "react-router";
 
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -20,6 +21,8 @@ const REGISTER_URL =
 const RegisterUser = () => {
   const [reveal, setReveal] = useState(true);
   const userRef = useRef();
+
+  // const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     username: "",
@@ -88,12 +91,14 @@ const RegisterUser = () => {
       setErrMsgs(validationErrors);
     }
     try {
-      // const { username, password } = formData;
+      const { username, password } = formData;
       const response = await axios.post(
         REGISTER_URL,
         JSON.stringify({
-          username: formData.username,
-          password: formData.password,
+          // username: formData.username,
+          // password: formData.password,
+          username,
+          password,
         }),
         {
           headers: { "Content-Type": "application/json" },
@@ -103,6 +108,7 @@ const RegisterUser = () => {
       console.log(response.data);
       console.log(response.token);
       console.log(JSON.stringify(response));
+      // navigate("/ConfirmEmail");
     } catch (error) {
       console.log(error);
     }

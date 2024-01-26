@@ -1,9 +1,9 @@
 import "../styles/Login.css";
 import eyeClosedIcon from "../assets/eye-closed.svg";
 import lockIcon from "../assets/lock-01.svg";
-import mailIcon from "../assets/mail-01.svg";
 import googleIcon from "../assets/Google.svg";
 import lineIcon from "../assets/Vector 2.svg";
+import userProfileIcon from "../assets/user-profile-02.svg";
 import { useState, useRef, useEffect } from "react";
 import eyeOpenIcon from "../assets/eye-open-svgrepo-com.svg";
 import axios from "axios";
@@ -112,7 +112,7 @@ const Login = () => {
               value={formData.username}
               onChange={handleChange}
             />
-            <img src={mailIcon} alt="mail icon" />
+            <img src={userProfileIcon} alt="mail icon" />
             {errMsgs.username && <p className="error-message">{errMsgs.username}</p>}
           </span>
           {/* <span>

@@ -1,0 +1,58 @@
+.email-verified {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f9ff;
+  position: relative;
+}
+
+.invoice-pilot-logo {
+  position: absolute;
+  top: 20px;
+  left: 91px;
+  width: 215px;
+  height: 66px;
+}
+
+.email-verified .email-verified-body {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 24px 0px #0302051a;
+  padding-block: 32px;
+  padding-inline: 30px;
+  text-align: center;
+  width: 620px;
+}
+
+.email-verified .email-verified-body img {
+  margin-inline: auto;
+  width: 291.67px;
+  height: 282.33px;
+}
+
+.email-verified .email-verified-body h1 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 68px;
+  margin-bottom: 16px;
+  margin-top: 53.88px;
+}
+
+.email-verified .email-verified-body p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.0015em;
+}
+
+.email-verified .email-verified-body p:first-of-type {
+  margin-bottom: 52px;
+}
+
+.email-verified .email-verified-body .email-verified-btn {
+  margin-top: 61px;
+  max-width: 432px;
+  margin-inline: auto;
+}
