@@ -1,11 +1,11 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserAdmission from "./pages/UserAdmission";
-import ConfirmEmail from "./components/ConfirmEmail";
-import EmailVerified from "./components/EmailVerified";
-import WelcomeBack from "./components/WelcomeBack";
-import SetUpAccount from "./components/SetUpAccount";
-import SetUpAccountSuccess from "./components/SetUpAccountSuccess";
+import ConfirmEmail from "./pages/ConfirmEmail";
+import EmailVerified from "./pages/EmailVerified";
+import WelcomeBack from "./pages/WelcomeBack";
+import SetUpAccount from "./pages/SetUpAccount";
+import SetUpAccountSuccess from "./pages/SetUpAccountSuccess";
 
 function App() {
   return (
