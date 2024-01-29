@@ -35,14 +35,14 @@ const InvoicePilotUserPage = () => {
             </button>
           </div> */}
         </div>
-        <div>
+        {/* <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
           aliquam quia sunt fuga nulla repudiandae pariatur voluptate rerum
           incidunt animi optio dignissimos hic deleniti assumenda atque ex nam
           voluptatem, similique magnam suscipit qui? Aut ab, dolor, sequi beatae
           repudiandae amet quis totam reiciendis explicabo reprehenderit iusto
           veritatis quo temporibus cumque.
-        </div>
+        </div> */}
       </div>
     </section>
   );
