@@ -1,0 +1,115 @@
+.invoice-pilot-user-page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.invoice-pilot-user-page .client-page {
+  height: 100%;
+  background-color: #f5f9ff;
+  width: 100%;
+  flex: 1;
+  padding: 30px 23px 10px 15px;
+}
+
+.invoice-pilot-user-page .user-page {
+  /* border: 1px solid red; */
+  max-width: 1117px;
+  margin-bottom: 37px;
+}
+
+.invoice-pilot-user-page .user-page nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.invoice-pilot-user-page .user-page nav .search-field {
+  position: relative;
+}
+
+.invoice-pilot-user-page .user-page nav .search-field img:first-of-type {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+
+.invoice-pilot-user-page .user-page nav .search-field img:nth-of-type(2) {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.invoice-pilot-user-page .user-page nav input {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(18, 95, 221, 0.1), rgba(18, 95, 221, 0.1));
+  border: 1px solid #00000033;
+  width: 298px;
+  height: 46.17px;
+  border-radius: 10px;
+  padding-left: 70px;
+}
+
+.invoice-pilot-user-page .user-page .user-profile {
+  display: flex;
+  gap: 44px;
+}
+
+.invoice-pilot-user-page .welcome-user {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+.invoice-pilot-user-page .welcome-user span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.invoice-pilot-user-page .welcome-user span p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+/* .home-btn {
+  width: 227px;
+  max-height: 52px;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home-btn-blue {
+  background-color: #144eac;
+  color: white;
+  transition: hover 0.3s ease-in;
+}
+
+.home-btn-white {
+  background-color: #fff;
+  color: #144eac;
+  border: 1px solid #144eac;
+}
+
+.home-btn-blue:hover {
+  background-color: #073277;
+}
+
+.home-btn-white:hover {
+  background-color: #eee9e9;
+}
+
+.home-btn.accent {
+  width: 249px;
+} */
