@@ -10,7 +10,7 @@ import plusicon from "../assets/plusicon.svg";
 
 const Customer = () => {
   // const [data, setData] = useState([]);
-  const [selctedOption, setSelectedOption] = useState("");
+  // const [selctedOption, setSelectedOption] = useState("");
 
   const [customerData, setCustomerData] = useState({
     customer_type: "", // Set default values as needed
