@@ -1,0 +1,108 @@
+.profile .profile-heading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.profile .profile-body {
+  margin-top: 35px;
+}
+
+.profile .profile-body form .input-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.profile .profile-body form span {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile .profile-body form span label {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.profile .profile-body form span input {
+  width: 350px;
+  height: 42px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid #00000080;
+}
+
+.profile .profile-body form .verify-number {
+  display: flex;
+}
+
+.profile .profile-body form .verify-number div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile .profile-body form .verify-number input {
+  width: 384px;
+}
+
+.profile .profile-body form .verify-number button.flag {
+  padding-block: 7px;
+  padding-inline: 10px;
+  border: 0.5px solid #00000080;
+  border-radius: 10px;
+}
+
+.profile .profile-body form .verify-number button.verify {
+  padding-block: 7px;
+  padding-inline: 15px;
+  border: 0.5px solid #00000080;
+  border-radius: 10px;
+}
+
+.profile .profile-body form .instructions {
+  display: flex;
+  gap: 15px;
+  max-width: 551px;
+  align-items: flex-start;
+  margin-top: 17px;
+}
+
+.profile .profile-body form .instructions p {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.001em;
+}
+
+.profile .profile-body form .change-password,
+.profile .profile-body form .delete-account {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.0015em;
+  margin-bottom: 23px;
+}
+
+.profile .profile-body form .change-password {
+  color: #144eaccc;
+  margin-top: 39px;
+}
+
+.profile .profile-body form .delete-account {
+  color: #ef4444;
+}
+
+.profile .profile-body form .form-btns {
+  display: flex;
+  gap: 58px;
+}
+
+.profile .profile-body form .form-btns button:first-of-type {
+  background-color: #ebebeb;
+  border: none;
+  color: black;
+}

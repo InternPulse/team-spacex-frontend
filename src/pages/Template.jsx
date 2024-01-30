@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-export default function Template() {
-  return (
-    <div>Template</div>
-  )
-}
+const Template = () => {
+  return <div>Template</div>;
+};
+
+export default Template;

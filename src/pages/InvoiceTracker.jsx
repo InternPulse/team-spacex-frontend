@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 
-export default function InvoiceTracker() {
-  return (
-    <div>InvoiceTracker</div>
-  )
-}
+const InvoiceTracker = () => {
+  return <div>InvoiceTracker</div>;
+};
 
+export default InvoiceTracker;
