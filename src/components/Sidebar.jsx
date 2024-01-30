@@ -72,7 +72,7 @@ export default function Sidebar() {
   const [open,setOpen] = useState(false)
 
   return (
-    <div className='sidebar'>
+    <div className='sidebar flex'>
         <div className='sidebar-inner m-auto'>
             <div className='flex'>
                 <img src={invoicepilotlogo} alt={invoicepilotlogo} />
@@ -105,6 +105,7 @@ export default function Sidebar() {
               })}
             </div>
         </div>
+        <main></main>
     </div>
   )
 }
