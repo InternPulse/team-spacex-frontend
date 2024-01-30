@@ -43,6 +43,10 @@
   fill: white;
 }
 
+.logout-btn {
+  margin-top: auto;
+}
+
 .settings .settings-body .section-2 {
   width: 100%;
   background-color: #fff;
@@ -52,3 +56,4 @@
   border-radius: 20px;
   height: fit-content;
 }
+
