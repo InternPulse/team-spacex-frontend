@@ -37,11 +37,17 @@
   align-items: center;
 }
 
+.sidebar .sidebar-list .sidebar-component {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .sidebar .sidebar-list .sidebar-component p {
   margin-left: 15px;
 }
 
-.sidebar .sidebar-list #name {
+.sidebar .sidebar-list .name {
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;

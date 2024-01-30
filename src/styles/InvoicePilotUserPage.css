@@ -27,32 +27,6 @@
   padding-left: 10px;
 }
 
-.invoice-pilot-user-page .user-page nav .search-field {
-  position: relative;
-}
-
-.invoice-pilot-user-page .user-page nav .search-field img:first-of-type {
-  position: absolute;
-  top: 12px;
-  left: 10px;
-}
-
-.invoice-pilot-user-page .user-page nav .search-field img:nth-of-type(2) {
-  position: absolute;
-  top: 20px;
-  left: 40px;
-}
-
-.invoice-pilot-user-page .user-page nav input {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(0deg, rgba(18, 95, 221, 0.1), rgba(18, 95, 221, 0.1));
-  border: 1px solid #00000033;
-  width: 298px;
-  height: 46.17px;
-  border-radius: 10px;
-  padding-left: 70px;
-}
-
 .invoice-pilot-user-page .user-page .user-profile {
   display: flex;
   gap: 44px;
@@ -76,40 +50,44 @@
   line-height: 34px;
 }
 
-/* .home-btn {
-  width: 227px;
-  max-height: 52px;
-  border-radius: 8px;
-  padding: 20px;
-  font-size: 17px;
+.input-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.input-container::after {
+  content: "";
+  position: absolute;
+  right: -4px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ccc;
+}
+
+.input-container input {
+  width: 100%;
   border: none;
   outline: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 }
 
-.home-btn-blue {
-  background-color: #144eac;
-  color: white;
-  transition: hover 0.3s ease-in;
+.search-body {
+  position: relative;
 }
 
-.home-btn-white {
-  background-color: #fff;
-  color: #144eac;
-  border: 1px solid #144eac;
+.search-input {
+  /* position: relative; */
+  width: 360px;
+  padding: 10px;
+  padding-left: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(3, 2, 5, 0.2);
+  background: rgba(18, 95, 221, 0.1);
+  outline: none;
 }
 
-.home-btn-blue:hover {
-  background-color: #073277;
+.search-images {
+  position: absolute;
+  margin-top: -32px;
+  padding-left: 10px;
 }
-
-.home-btn-white:hover {
-  background-color: #eee9e9;
-}
-
-.home-btn.accent {
-  width: 249px;
-} */

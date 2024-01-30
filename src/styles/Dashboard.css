@@ -1,26 +1,29 @@
 .main-content {
-    flex-grow: 1;
-    overflow-y: auto;
-    background-color: #f4f7fa;
-    padding: 20px;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .greeting h1 {
-    color: #233348;
-  }
-  
-  .new-invoice button {
-    padding: 10px 20px;
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #f4f7fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.greeting h1 {
+  color: #233348;
+}
+
+.new-invoice button {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content .welcome-user {
+  margin-bottom: 37px;
+}

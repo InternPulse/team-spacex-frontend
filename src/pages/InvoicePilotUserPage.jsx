@@ -1,23 +1,44 @@
 import Sidebar from "../components/Sidebar";
 import "../styles/InvoicePilotUserPage.css";
-import searchIcon from "../assets/wpf_search.svg";
-import arrowDownIcon from "../assets/formkit_down.svg";
+import dropdown from "../assets/dropdowm.svg";
+import search from "../assets/search.svg";
 import userProfileIcon from "../assets/Ellipse 3.svg";
 import notificationIcon from "../assets/Frame 95.svg";
 import plusIcon from "../assets/ic_outline-plus.svg";
-// import invoiceOutlineIcon from "../assets/Frame 109.svg";
+// import upgradeIcon from "../assets/grommet-icons_upgrade.svg";
+import Dashboard from "../pages/Dashboard";
+import Invoice from "../pages/Invoice";
+import Template from "../pages/Template";
+import Customer from "../pages/Customer";
+import InvoiceTracker from "../pages/InvoiceTracker";
+import Settings from "../pages/Settings";
+import { useState } from "react";
 
 const InvoicePilotUserPage = () => {
+  const [selectedItem, setSelectedItem] = useState("Dashboard");
+
+  const handleItemClick = (name) => {
+    setSelectedItem(name);
+  };
+
   return (
     <section className="invoice-pilot-user-page">
-      <Sidebar />
+      <Sidebar handleItemClick={handleItemClick} />
       <div className="client-page">
         <div className="user-page">
           <nav>
-            <div className="search-field">
-              <input type="search" name="" id="" placeholder="Search" />
-              <img src={searchIcon} alt="" />
-              <img src={arrowDownIcon} alt="" />
+            <div className="search-body">
+              <div className="">
+                <input
+                  type="search"
+                  placeholder="Search"
+                  className="search-input"
+                />
+              </div>
+              <div className="flex search-images input-container gap-1">
+                <img src={search} alt="" />
+                <img src={dropdown} alt="" />
+              </div>
             </div>
             <div className="user-profile">
               <img src={plusIcon} alt="" />
@@ -25,6 +46,12 @@ const InvoicePilotUserPage = () => {
               <img src={userProfileIcon} alt="" />
             </div>
           </nav>
+          {selectedItem === "Dashboard" && <Dashboard />}
+          {selectedItem === "Invoice" && <Invoice />}
+          {selectedItem === "Template" && <Template />}
+          {selectedItem === "Customer" && <Customer />}
+          {selectedItem === "InvoiceTracker" && <InvoiceTracker />}
+          {selectedItem === "Settings" && <Settings />}
           {/* <div className="welcome-user">
             <span>
               <img src={invoiceOutlineIcon} alt="" />
@@ -35,14 +62,6 @@ const InvoicePilotUserPage = () => {
             </button>
           </div> */}
         </div>
-        {/* <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-          aliquam quia sunt fuga nulla repudiandae pariatur voluptate rerum
-          incidunt animi optio dignissimos hic deleniti assumenda atque ex nam
-          voluptatem, similique magnam suscipit qui? Aut ab, dolor, sequi beatae
-          repudiandae amet quis totam reiciendis explicabo reprehenderit iusto
-          veritatis quo temporibus cumque.
-        </div> */}
       </div>
     </section>
   );
