@@ -5,7 +5,6 @@ import search from "../assets/search.svg";
 import userProfileIcon from "../assets/Ellipse 3.svg";
 import notificationIcon from "../assets/Frame 95.svg";
 import plusIcon from "../assets/ic_outline-plus.svg";
-// import upgradeIcon from "../assets/grommet-icons_upgrade.svg";
 import Dashboard from "../pages/Dashboard";
 import Invoice from "../pages/Invoice";
 import Template from "../pages/Template";
@@ -46,21 +45,14 @@ const InvoicePilotUserPage = () => {
               <img src={userProfileIcon} alt="" />
             </div>
           </nav>
-          {selectedItem === "Dashboard" && <Dashboard />}
-          {selectedItem === "Invoice" && <Invoice />}
-          {selectedItem === "Template" && <Template />}
-          {selectedItem === "Customer" && <Customer />}
-          {selectedItem === "InvoiceTracker" && <InvoiceTracker />}
-          {selectedItem === "Settings" && <Settings />}
-          {/* <div className="welcome-user">
-            <span>
-              <img src={invoiceOutlineIcon} alt="" />
-              <p>Hello 👋 , John</p>
-            </span>
-            <button className="home-btn home-btn-blue accent">
-              Create new Invoice
-            </button>
-          </div> */}
+          <div>
+            {selectedItem === "Dashboard" && <Dashboard />}
+            {selectedItem === "Invoice" && <Invoice />}
+            {selectedItem === "Template" && <Template />}
+            {selectedItem === "Customer" && <Customer />}
+            {selectedItem === "InvoiceTracker" && <InvoiceTracker />}
+            {selectedItem === "Settings" && <Settings />}
+          </div>
         </div>
       </div>
     </section>

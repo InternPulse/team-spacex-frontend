@@ -7,6 +7,7 @@
 
 .invoice-pilot-user-page .client-page {
   height: 100%;
+  overflow-y: scroll;
   background-color: #f5f9ff;
   width: 100%;
   flex: 1;
@@ -24,7 +25,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
+  /* padding-left: 10px; */
+  /* position: static; */
 }
 
 .invoice-pilot-user-page .user-page .user-profile {

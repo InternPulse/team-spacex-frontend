@@ -1,7 +1,7 @@
 .sidebar {
   background: #144eac;
   color: #fff;
-  height: 100vh;
+  height: 100%;
   width: 296px;
   transition: all 0.5s;
   padding-block: 50px;
