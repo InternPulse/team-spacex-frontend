@@ -34,6 +34,11 @@
   gap: 44px;
 }
 
+.invoice-pilot-user-page::-webkit-scrollbar {
+  display: none;
+}
+
+
 .invoice-pilot-user-page .welcome-user {
   display: flex;
   justify-content: space-between;

@@ -1,11 +1,8 @@
-import React from "react";
+import React from 'react'
 
-const Invoice = () => {
+export default function Invoice() {
   return (
-    <div>
-      <h1>Invoice page</h1>
-    </div>
-  );
-};
+    <div>Invoice</div>
+  )
+}
 
-export default Invoice;

@@ -18,7 +18,7 @@ export default function Sidebar({ handleItemClick, selectedItem }) {
           <p>Menu</p>
           <img src={downArrowIcon} alt="" />
         </span>
-        <ul className="sidebar-list">
+        <ul className="sidebar-list active">
           {SidebarDB.map((item, index) => {
             const { name, icon } = item;
             return (
