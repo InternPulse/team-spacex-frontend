@@ -147,10 +147,9 @@ useEffect(() => {
     try {
       const apiData = await ChartDB();
 
-      // Get the current year
+
       const currentYear = new Date().getFullYear();
 
-      // Generate labels by appending the current year to each month
       const labelsWithYear = apiData.labels.map(label => [label, currentYear.toString()]);
 
       const data = {
