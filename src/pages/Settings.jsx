@@ -4,6 +4,7 @@ import preferencesIcon from "../assets/pajamas_preferences.svg";
 import teamIcon from "../assets/ant-design_team-outlined.svg";
 import Profile from "../components/Profile";
 import Preferences from "../components/Preferences";
+import logoutIcon from "../assets/material-symbols-light_logout.svg";
 import Team from "../components/Team";
 import { useState } from "react";
 
@@ -39,6 +40,10 @@ const Settings = () => {
           >
             <img src={teamIcon} alt="" />
             <p>Team</p>
+          </button>
+          <button className="home-btn logout-btn">
+            <img src={logoutIcon} alt="" />
+            <p>Logout</p>
           </button>
         </section>
         <section className="section-2">
