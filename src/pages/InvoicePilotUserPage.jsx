@@ -22,7 +22,7 @@ const InvoicePilotUserPage = () => {
 
   return (
     <section className="invoice-pilot-user-page">
-      <Sidebar handleItemClick={handleItemClick} />
+      <Sidebar handleItemClick={handleItemClick} selectedItem={selectedItem} />
       <div className="client-page">
         <div className="user-page">
           <nav>
