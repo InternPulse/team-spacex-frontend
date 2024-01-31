@@ -1,10 +1,10 @@
-import dashboardImage from "../assets/Dashboard.svg";
+import dashboardImage from "../assets/dashboard.svg";
 
 const DashboardImage = () => {
   return (
     <div className="block">
       <div className="dashboard-img">
-        <img
+        {/* <img
           src={dashboardImage}
           alt=""
           style={{
@@ -12,9 +12,9 @@ const DashboardImage = () => {
             width: "1155px",
             position: "absolute",
             top: "688px",
-            left: "178px",
+            left: "",
           }}
-        />
+        /> */}
       </div>
     </div>
   );

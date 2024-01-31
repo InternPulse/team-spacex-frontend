@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/bhfbfh" element={<LandingPage />} />
           <Route path="/UserAdmission" element={<UserAdmission />} />
           <Route path="/ConfirmEmail" element={<ConfirmEmail />} />
           <Route path="/EmailVerified" element={<EmailVerified />} />
@@ -25,7 +25,7 @@ function App() {
             element={<SetUpAccountSuccess />}
           />
           <Route
-            path="/InvoicePilotUserPage"
+            path="/"
             element={<InvoicePilotUserPage />}
           />
         </Routes>
