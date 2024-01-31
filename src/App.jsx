@@ -7,6 +7,7 @@ import EmailVerified from "./pages/EmailVerified";
 import WelcomeBack from "./pages/WelcomeBack";
 import SetUpAccount from "./pages/SetUpAccount";
 import SetUpAccountSuccess from "./pages/SetUpAccountSuccess";
+import InvoicePilotUserPage from "./pages/InvoicePilotUserPage.jsx";
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
           <Route
             path="/SetUpAccountSuccess"
             element={<SetUpAccountSuccess />}
+          />
+          <Route
+            path="/InvoicePilotUserPage"
+            element={<InvoicePilotUserPage />}
           />
         </Routes>
       </BrowserRouter>

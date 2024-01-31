@@ -126,3 +126,42 @@ a {
 li {
   list-style: none;
 }
+
+
+/* .home-btn {
+  width: 227px;
+  max-height: 52px;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home-btn-blue {
+  background-color: #144eac;
+  color: white;
+  transition: hover 0.3s ease-in;
+}
+
+.home-btn-white {
+  background-color: #fff;
+  color: #144eac;
+  border: 1px solid #144eac;
+}
+
+.home-btn-blue:hover {
+  background-color: #073277;
+}
+
+.home-btn-white:hover {
+  background-color: #eee9e9;
+}
+
+.home-btn.accent {
+  width: 249px;
+} */

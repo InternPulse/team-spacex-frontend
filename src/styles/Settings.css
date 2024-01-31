@@ -1,0 +1,59 @@
+.settings .settings-heading {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.0025em;
+  margin-top: 29px;
+  margin-bottom: 68px;
+}
+
+.settings .settings-body {
+  display: flex;
+  gap: 27px;
+}
+
+.settings .settings-body .section-1 {
+  width: auto;
+  height: 450px;
+  padding-block: 15px;
+  padding-inline: 20px;
+  border-radius: 20px;
+  border: 0.5px solid #00000080;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings .settings-body .section-1 button {
+  width: 182px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.settings .settings-body .section-1 button.active {
+  background-color: #144EAC;
+  color: white;
+}
+
+.settings .settings-body .section-1 button img {
+  margin-right: 20px;
+}
+.settings .settings-body .section-1 button.active img {
+  margin-right: 20px;
+  fill: white;
+}
+
+.logout-btn {
+  margin-top: auto;
+}
+
+.settings .settings-body .section-2 {
+  width: 100%;
+  background-color: #fff;
+  padding-inline: 20px;
+  padding-block: 30px;
+  border: 0.5px solid #00000080;
+  border-radius: 20px;
+  height: fit-content;
+}
+
