@@ -6,6 +6,11 @@
   transition: all 0.5s;
   padding-block: 50px;
   padding-inline: 20px;
+  position: relative;
+}
+
+.sidebar .sidebar-inner {
+  /* position: relative; */
 }
 
 .sidebar .sidebar-inner .menu {
@@ -28,7 +33,7 @@
   gap: 20px;
 }
 
-.sidebar .sidebar-list .sidebar-component:first-child {
+.sidebar .sidebar-list .sidebar-component.active {
   background-color: white;
   color: black;
   border-radius: 12px;
@@ -55,7 +60,9 @@
 
 .sidebar .upgrade {
   display: flex;
-  margin-top: auto;
+  gap: 15px;
+  position: absolute;
+  bottom: 50px;
 }
 
 .sidebar .upgrade p {

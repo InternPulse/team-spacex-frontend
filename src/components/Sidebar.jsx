@@ -2,9 +2,10 @@ import "../styles/Sidebar.css";
 import invoicepilotlogo from "../assets/Invoice-pilot-logo2.svg";
 import { SidebarDB } from "../SidebarDB";
 import downArrowIcon from "../assets/mingcute_down-line.svg";
+import upgradeIcon from "../assets/Vector.svg";
+import { Link } from "react-router-dom";
 
-export default function Sidebar({handleItemClick}) {
-
+export default function Sidebar({ handleItemClick, selectedItem }) {
   return (
     <div className="sidebar">
       <div className="sidebar-inner">
@@ -23,7 +24,7 @@ export default function Sidebar({handleItemClick}) {
             return (
               <li
                 key={index}
-                className="sidebar-component "
+                className={`sidebar-component ${selectedItem === name ? "active" : ""}`}
                 onClick={() => handleItemClick(name)}
               >
                 <img src={icon} alt="icon" />
@@ -32,10 +33,10 @@ export default function Sidebar({handleItemClick}) {
             );
           })}
         </ul>
-        {/* <div className="upgrade">
+        <Link className="upgrade">
           <img src={upgradeIcon} alt="" />
           <p>Upgrade for Free</p>
-        </div> */}
+        </Link>
       </div>
     </div>
   );
