@@ -1,0 +1,100 @@
+.invoice-pilot-user-page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.invoice-pilot-user-page .client-page {
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #f5f9ff;
+  width: 100%;
+  flex: 1;
+  padding: 30px 23px 10px 15px;
+}
+
+.invoice-pilot-user-page .user-page {
+  /* border: 1px solid red; */
+  max-width: 1117px;
+  margin-bottom: 37px;
+}
+
+.invoice-pilot-user-page .user-page nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-left: 10px; */
+  /* position: static; */
+}
+
+.invoice-pilot-user-page .user-page .user-profile {
+  display: flex;
+  gap: 44px;
+}
+
+.invoice-pilot-user-page::-webkit-scrollbar {
+  display: none;
+}
+
+
+.invoice-pilot-user-page .welcome-user {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+}
+
+.invoice-pilot-user-page .welcome-user span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.invoice-pilot-user-page .welcome-user span p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.input-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.input-container::after {
+  content: "";
+  position: absolute;
+  right: -4px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ccc;
+}
+
+.input-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.search-body {
+  position: relative;
+}
+
+.search-input {
+  /* position: relative; */
+  width: 360px;
+  padding: 10px;
+  padding-left: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(3, 2, 5, 0.2);
+  background: rgba(18, 95, 221, 0.1);
+  outline: none;
+}
+
+.search-images {
+  position: absolute;
+  margin-top: -32px;
+  padding-left: 10px;
+}
